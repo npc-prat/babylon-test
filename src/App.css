@@ -1,38 +1,122 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#root {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  background: linear-gradient(to bottom right, #616161, #424242);
+  color: #fff;
 }
 
-.App-link {
-  color: #61dafb;
+.app {
+  font-size: 14px;
+  max-width: 650px;
+  margin: 0 20px;
+  width: 100%;
+  background-color: #212121;
+  border-radius: 0.5em;
+  padding: 1em;
+  box-shadow: 0 1em 1em #424242;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5em 0 1.25em 0;
+  user-select: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+h1 {
+  font-size: 2em;
+  font-weight: 500;
+  margin: 0;
+}
+button {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 1.3em;
+  font-weight: bold;
+  width: min-content;
+  border: none;
+  border-radius: 0.25em;
+  padding: 0.4em 0.5em;
+  transform: translateY(0.05em);
+  background: linear-gradient(to bottom right, #a5d6a7, #4dd0e1);
+  box-shadow: 0 0.2em 0.5em #111;
+  transition: all 150ms;
+}
+button:hover {
+  transform: translateY(0);
+  box-shadow: 0 0.25em 0.5em #000;
+}
+button:active {
+  transform: translateY(0.065em);
+  box-shadow: none;
+  transition: all 0ms;
+}
+button > i {
+  margin-right: 0.5em;
+}
+
+.container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 500px;
+}
+
+.wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.25em;
+  overflow: hidden;
+  transition: all 400ms;
+}
+.mapWrapper {
+  transform: translateX(-100%);
+}
+.mapWrapper.active {
+  transform: translateX(0);
+}
+.viewerWrapper {
+  transform: translateX(100%);
+}
+.viewerWrapper.active {
+  transform: translateX(0);
+}
+
+.loading-overlay {
+  z-index: 2;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 6em;
+  color: #eee;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 1000ms;
+}
+.loading-overlay.active {
+  visibility: visible;
+  opacity: 1;
+  background-color: rgb(0, 0, 0, 0.4);
+  transition: all 100ms;
+}
+
+@media only screen and (max-width: 480px) {
+  #root {
+    background: #212121;
   }
-  to {
-    transform: rotate(360deg);
+  .app {
+    font-size: 12px;
+    margin: 0;
+    border-radius: 0;
+    box-shadow: none;
   }
 }
