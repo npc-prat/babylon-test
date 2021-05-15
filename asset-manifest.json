@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/babylon-test/static/css/main.8e292561.chunk.css",
-    "main.js": "/babylon-test/static/js/main.16e6db5d.chunk.js",
-    "main.js.map": "/babylon-test/static/js/main.16e6db5d.chunk.js.map",
+    "main.js": "/babylon-test/static/js/main.c8c6d24a.chunk.js",
+    "main.js.map": "/babylon-test/static/js/main.c8c6d24a.chunk.js.map",
     "runtime-main.js": "/babylon-test/static/js/runtime-main.ada1fa8a.js",
     "runtime-main.js.map": "/babylon-test/static/js/runtime-main.ada1fa8a.js.map",
     "static/css/2.3a5d91c4.chunk.css": "/babylon-test/static/css/2.3a5d91c4.chunk.css",
@@ -18,6 +18,6 @@
     "static/css/2.3a5d91c4.chunk.css",
     "static/js/2.ec35284a.chunk.js",
     "static/css/main.8e292561.chunk.css",
-    "static/js/main.16e6db5d.chunk.js"
+    "static/js/main.c8c6d24a.chunk.js"
   ]
 }
