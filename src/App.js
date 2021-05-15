@@ -33,8 +33,10 @@ const App = () => {
       let myMaterial = new StandardMaterial("myMaterial")
       myMaterial.diffuseTexture = new Texture(img)
       cuboid.material = myMaterial
-      setTimeout(() => { setLoading(false) }, 400)
-      setTimeout(() => { setActiveView("viewer") }, 400)
+      setTimeout(() => {
+        setLoading(false)
+        setActiveView("viewer")
+      }, 400)
     }
     else setActiveView("map")
   }
@@ -56,8 +58,8 @@ const App = () => {
           <div className={`loading-overlay ${loading && 'active'}`}>
             {
               loading
-              ? <i className="fas fa-cog fa-spin" />
-              : <i className="fa fa-check" />
+                ? <i className="fas fa-cog fa-spin" />
+                : <i className="fa fa-check" />
             }
           </div>
         </div>
