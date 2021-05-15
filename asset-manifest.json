@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/babylon-test/static/css/main.8e292561.chunk.css",
-    "main.js": "/babylon-test/static/js/main.0600ed79.chunk.js",
-    "main.js.map": "/babylon-test/static/js/main.0600ed79.chunk.js.map",
+    "main.js": "/babylon-test/static/js/main.16e6db5d.chunk.js",
+    "main.js.map": "/babylon-test/static/js/main.16e6db5d.chunk.js.map",
     "runtime-main.js": "/babylon-test/static/js/runtime-main.ada1fa8a.js",
     "runtime-main.js.map": "/babylon-test/static/js/runtime-main.ada1fa8a.js.map",
     "static/css/2.3a5d91c4.chunk.css": "/babylon-test/static/css/2.3a5d91c4.chunk.css",
-    "static/js/2.0689fcef.chunk.js": "/babylon-test/static/js/2.0689fcef.chunk.js",
-    "static/js/2.0689fcef.chunk.js.map": "/babylon-test/static/js/2.0689fcef.chunk.js.map",
+    "static/js/2.ec35284a.chunk.js": "/babylon-test/static/js/2.ec35284a.chunk.js",
+    "static/js/2.ec35284a.chunk.js.map": "/babylon-test/static/js/2.ec35284a.chunk.js.map",
     "index.html": "/babylon-test/index.html",
     "static/css/2.3a5d91c4.chunk.css.map": "/babylon-test/static/css/2.3a5d91c4.chunk.css.map",
     "static/css/main.8e292561.chunk.css.map": "/babylon-test/static/css/main.8e292561.chunk.css.map",
-    "static/js/2.0689fcef.chunk.js.LICENSE.txt": "/babylon-test/static/js/2.0689fcef.chunk.js.LICENSE.txt"
+    "static/js/2.ec35284a.chunk.js.LICENSE.txt": "/babylon-test/static/js/2.ec35284a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ada1fa8a.js",
     "static/css/2.3a5d91c4.chunk.css",
-    "static/js/2.0689fcef.chunk.js",
+    "static/js/2.ec35284a.chunk.js",
     "static/css/main.8e292561.chunk.css",
-    "static/js/main.0600ed79.chunk.js"
+    "static/js/main.16e6db5d.chunk.js"
   ]
 }
